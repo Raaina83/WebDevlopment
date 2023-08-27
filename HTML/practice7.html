@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form practice</title>
+</head>
+<body>
+    <form action="/action">
+        <div>
+        <input type="text" name="name" id="first_name" placeholder="First Name">
+        <input type="text" name="name" id="last_name" placeholder="Last Name">
+        </div>
+        <div>
+            <label for="">Please select gender</label>
+            <select name="gender" id="gender">
+                <option value="Male" selected>Male</option>
+                <option value="Female">Female</option>
+                <option value="other">Other</option>
+            </select>
+        </div>
+        <div>
+            <label for="terms">Do you agree to all terms of service?</label>
+            <input type="checkbox" name="agree" id="terms" checked>
+            <label for="terms">Yes,I agree</label>
+        </div>
+        <button>Register</button>
+    </form>
+</body>
+</html>

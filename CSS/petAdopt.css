@@ -1,0 +1,33 @@
+span{
+    color: goldenrod;
+}
+h2{
+    color: chocolate;
+}
+.card{
+    border: 2px solid black;
+    height: 500px;
+    width: 400px;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 10px;
+}
+img{
+    /* height: 200px; */
+    width: 100%;
+    /* border: 2px solid black; */
+    border-radius: 20px;
+}
+p{
+    margin: 0px 2px 0px 2px;
+}
+#pets{
+    display: flex;
+    justify-content: space-around;
+}
+@media(max-width:375px){
+    #pets{
+        /* flex-direction: column; */
+        flex-wrap: wrap;
+    }
+}

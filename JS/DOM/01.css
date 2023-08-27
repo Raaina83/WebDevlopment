@@ -1,0 +1,12 @@
+#info{
+    border: 2px solid black;
+    background-color: lightgrey;
+    width: 200px;
+}
+
+.oldImg{
+    width: 15%;
+}
+.green{
+    color: green;
+}
